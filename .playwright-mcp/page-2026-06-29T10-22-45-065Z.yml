@@ -1,0 +1,109 @@
+- generic [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e5]:
+      - heading "React Component Generator" [level=1] [ref=e7]
+      - generic [ref=e9]:
+        - generic [ref=e52]:
+          - generic [ref=e53]:
+            - generic [ref=e56]: Create a user profile card with avatar, name, role, and a follow button
+            - img [ref=e59]
+          - generic [ref=e79]:
+            - img [ref=e82]
+            - generic [ref=e87]:
+              - generic [ref=e90]: Creating App.jsx
+              - separator [ref=e91]
+              - generic [ref=e92]:
+                - paragraph [ref=e93]: "Done! Created a user profile card with:"
+                - list [ref=e94]:
+                  - listitem [ref=e95]: Avatar image with border
+                  - listitem [ref=e96]: Name and role
+                  - listitem [ref=e97]: Follow button that toggles between "Follow" and "Following" states
+                  - listitem [ref=e98]: Responsive design with Tailwind styling
+        - generic [ref=e19]:
+          - textbox "Describe the React component you want to create..." [ref=e20]
+          - button [disabled] [ref=e21]:
+            - img [ref=e22]
+    - separator [ref=e25]
+    - generic [ref=e27]:
+      - generic [ref=e28]:
+        - tablist [ref=e30]:
+          - tab "Preview" [ref=e31]
+          - tab "Code" [active] [selected] [ref=e32]
+        - generic [ref=e33]:
+          - button "Sign In" [ref=e34]
+          - button "Sign Up" [ref=e35]
+      - generic [ref=e99]:
+        - generic [ref=e107] [cursor=pointer]:
+          - img [ref=e108]
+          - generic [ref=e113]: App.jsx
+        - separator [ref=e114]
+        - code [ref=e119]:
+          - generic [ref=e120]:
+            - generic [ref=e122]:
+              - generic [ref=e125]: "1"
+              - generic [ref=e127]: "2"
+              - generic [ref=e128]:
+                - generic [ref=e129] [cursor=pointer]: 
+                - generic [ref=e130]: "3"
+              - generic [ref=e132]: "4"
+              - generic [ref=e135]: "5"
+              - generic [ref=e136]:
+                - generic [ref=e137] [cursor=pointer]: 
+                - generic [ref=e138]: "6"
+              - generic [ref=e140]: "7"
+              - generic [ref=e142]: "8"
+              - generic [ref=e144]: "9"
+              - generic [ref=e145]:
+                - generic [ref=e146] [cursor=pointer]: 
+                - generic [ref=e147]: "10"
+              - generic [ref=e148]:
+                - generic [ref=e149] [cursor=pointer]: 
+                - generic [ref=e150]: "11"
+              - generic [ref=e152]:
+                - generic [ref=e153] [cursor=pointer]: 
+                - generic [ref=e154]: "12"
+              - generic [ref=e157]: "13"
+              - generic [ref=e158]:
+                - generic [ref=e159] [cursor=pointer]: 
+                - generic [ref=e160]: "14"
+              - generic [ref=e161]:
+                - generic [ref=e162] [cursor=pointer]: 
+                - generic [ref=e163]: "15"
+              - generic [ref=e165]: "16"
+              - generic [ref=e170]: "17"
+              - generic [ref=e172]: "18"
+              - generic [ref=e175]: "19"
+              - generic [ref=e177]: "20"
+              - generic [ref=e179]: "21"
+              - generic [ref=e181]: "22"
+            - generic [ref=e304]:
+              - generic [ref=e306]: "import { useState } from 'react';"
+              - generic [ref=e309]: "export default function App() {"
+              - generic [ref=e311]: const [isFollowing, setIsFollowing] = useState
+              - generic [ref=e313]: (false);
+              - generic [ref=e316]: "const handleFollowClick = () => {"
+              - generic [ref=e318]: setIsFollowing(!isFollowing);
+              - generic [ref=e320]: "};"
+              - generic [ref=e323]: return (
+              - generic [ref=e325]: <div className="flex items-center justify-center
+              - generic [ref=e327]: min-h-screen bg-gray-100">
+              - generic [ref=e329]: <div className="bg-white rounded-lg shadow-lg
+              - generic [ref=e331]: p-8 w-80">
+              - generic [ref=e333]: "{/* Avatar */}"
+              - generic [ref=e335]: <div className="flex justify-center mb-6">
+              - generic [ref=e337]: <img
+              - generic [ref=e339]: src="https://images.unsplash.com/
+              - generic [ref=e341]: photo-1472099645785-5658abf4ff4e?
+              - generic [ref=e343]: ixlib=rb-1.2.1&auto=format&fit=facearea&
+              - generic [ref=e345]: facepad=2&w=256&h=256&q=80"
+              - generic [ref=e347]: alt="User Avatar"
+              - generic [ref=e349]: className="w-24 h-24 rounded-full
+              - generic [ref=e351]: border-4 border-blue-500 object-cover"
+              - generic [ref=e353]: />
+              - generic [ref=e355]: </div>
+              - generic [ref=e358]: "{/* Name */}"
+            - textbox "Editor content" [ref=e360]
+  - alert [ref=e46]
+  - generic [ref=e361]:
+    - alert
+    - alert
